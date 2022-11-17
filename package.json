@@ -1,0 +1,49 @@
+{
+  "name": "gift-planner",
+  "version": "1.0.0",
+  "description": "georgina mvp gift planner",
+  "main": "server/index.js",
+  "scripts": {
+    "server-dev": "npx nodemon --watch server server/index.js",
+    "react-dev": "webpack -d --watch"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "nodemon": "^2.0.20",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^4.11.1",
+    "yarn": "^1.22.19"
+  },
+  "author": "georgina",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.14",
+    "@mui/material": "^5.10.14",
+    "axios": "^1.1.2",
+    "babel-plugin-macros": "^3.1.0",
+    "cloudinary-core": "^2.13.0",
+    "cloudinary-react": "^1.8.1",
+    "css-loader": "^5,1,1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.6.0",
+    "react-modal": "^3.16.1",
+    "react-moment": "^1.1.2",
+    "style-loader": "^2.0.0",
+    "styled-components": "^5.3.6",
+    "util": "^0.12.5",
+    "validator": "^13.7.0",
+    "xmldom": "^0.6.0",
+    "xpath": "^0.0.32"
+  }
+}

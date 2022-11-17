@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  height: 100vh;
+  padding:0 50px;
+  gap:10px
+}
+
+.homePanel {
+  display: grid;
+  grid-template-rows: 5% 20% 20%;
+  align-items: flex-start;
+}
+
+.homeContent {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#gift-modal_container {
+  margin: 30% auto;
+  display: table;
+  min-height: 30vh;
+  min-width: 30vh;
+  max-height: 90vh;
+}
+
+#gift-modal-close-button {
+  text-align: right;
+}
+
+#gift-modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap:30px;
+}
+
+#gift-modal-title {
+  text-align:center;
+  margin:0;
+}
+
+#homeContent-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h3{
+  margin: 10px;
+}
+
+.item-photo {
+  width: 60px;
+  height: 80px;
+  object-fit: contain;
+}
