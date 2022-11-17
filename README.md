@@ -1,5 +1,4 @@
 # gift-planner
 A React + Express app to plan gift ideas!
 
-https://user-images.githubusercontent.com/104413622/202585012-2025d375-a41c-41cb-aa66-4d9acc8767be.mov
-
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/104413622/202585150-1d7076ef-96ca-443f-92f9-93708a61cc5c.gif)
